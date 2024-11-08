@@ -1,10 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Sat Feb 27 14:59:42 2021
-
-@author: Gustavo
-"""
 
 import pandas as pd
 import gspread
