@@ -4,7 +4,7 @@ from gspread_dataframe import set_with_dataframe
 
 # ACCES GOOGLE SHEET
 gc = gspread.service_account(filename='credentials.json')
-sh = gc.open_by_key('1q2BIzxdVmaaLJkPu1CzyhRQJrzEr8EuNmCdoDdUn-TU')
+sh = gc.open_by_key('your_key')
 worksheet = sh.get_worksheet(0)
 
 # APPEND DATA TO SHEET
