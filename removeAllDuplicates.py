@@ -15,7 +15,7 @@ from gspread_dataframe import set_with_dataframe
 
 # ACCESS GOOGLE SHEET
 gc = gspread.service_account(filename='credentials.json')
-sh = gc.open_by_key('1q2BIzxdVmaaLJkPu1CzyhRQJrzEr8EuNmCdoDdUn-TU')
+sh = gc.open_by_key('your_key')
 
 worksheets = sh.worksheets()
 print("Worksheets = ", worksheets)
